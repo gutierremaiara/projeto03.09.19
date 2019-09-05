@@ -12,17 +12,68 @@ img{
 	max-width: 100%;
 }
 .container{
-	max-width: 1100px;
+	max-width: 980px;
 	margin: 0 auto;
-
+	overflow:hidden;
 }
 
+.header-logo{
+display: inline-block;
+vertical-align: middle;
+}
+.header-logo a i{
+	color: white;
+}
 .header{
 	background: green;
 	width: 100%;
+	padding: 0; 
+}
+.menu{
+	display: inline-block;
+	float: right;
 }
 
 .menu li{
 	display: inline-block;
+	float: right;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 	list-style: none;
+	margin-top:50;
+	margin-right:50;
+	margin-bottom:50;
+	margin-left:50;	
+}
+.menu li a{
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+}
+article {
+	background-image: url(./images/girlbythesea.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 700px;
+	max-height: 200px;
+}
+.container article {
+	margin: 35px;
+}
+.awakening {
+	margin: 0;
+	font-size: 55px;
+	padding-left: 30px;
+	padding-top: 60px;
+	color: white;
+}
+.description h1 {
+	font-size: 30px;
+	margin-left: 80px;
+}
+.description p {
+	font-size: 20px
+	font-style:justify;
+	margin-left: 90px;
 }
