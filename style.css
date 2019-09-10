@@ -9,10 +9,11 @@ html, body{
 }
 
 img{
-	max-width: 100%;
+	width: 1000px;
+	height:300px;
 }
 .container{
-	max-width: 980px;
+	max-width: 1000px;
 	margin: 0 auto;
 	overflow:hidden;
 }
@@ -20,10 +21,12 @@ img{
 .header-logo{
 display: inline-block;
 vertical-align: middle;
+color: white;
 }
-.header-logo a i{
+.header a{
 	color: white;
 }
+
 .header{
 	background: green;
 	width: 100%;
