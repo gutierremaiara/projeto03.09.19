@@ -1,7 +1,6 @@
-responsive.css
 @media (max-width: 768px){
-}
-.cards{
-	display: block;
-	width: 100%;
+	.cards{
+		display: block;
+		width: 100%;
+	}
 }
